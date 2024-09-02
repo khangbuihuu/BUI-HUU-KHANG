@@ -12,7 +12,7 @@ body {
 }
 
 .cointainer {
-    background-image: url(/img/c2edd6d8715517045883afa2d35d38bf.jpg);
+    background-image: url(./img/c2edd6d8715517045883afa2d35d38bf.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
@@ -62,7 +62,7 @@ body {
 #about {
     width: 1229px;
     height: 522px;
-    background-image: url(/img/756a010f8f8218b88f3eb457116045a3.jpg);
+    background-image: url(./img/756a010f8f8218b88f3eb457116045a3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(50%);
@@ -117,7 +117,7 @@ body {
     width: 1229px;
     margin-left: 150px;
     display: flex;
-    background-image: url(/img/756a010f8f8218b88f3eb457116045a3.jpg);
+    background-image: url(./img/756a010f8f8218b88f3eb457116045a3.jpg);
 }
 
 
@@ -191,7 +191,7 @@ body {
 }
 
 .flex {
-    background: url(/img/756a010f8f8218b88f3eb457116045a3.jpg);
+    background: url(./img/756a010f8f8218b88f3eb457116045a3.jpg);
     margin-left: 150px;
     width: 1229px;
     height: 400px;
@@ -248,11 +248,11 @@ body {
 .info1,
 .flex {
     animation-name: fadeUpAnime;
-    /*アニメーションの定義名*/
+    
     animation-duration: 1s;
-    /*アニメーション変化時間 ※デフォルト*/
+
     animation-fill-mode: forwards;
-    /*アニメーションの開始と終了時の状態を指定*/
+
     opacity: 0;
 }
 
